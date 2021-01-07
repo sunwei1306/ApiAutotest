@@ -1,0 +1,9 @@
+# 注册成功，密码6位
+- data: { "mobilephone": "15296008988", "pwd": "123456" }
+  expect: {"status":1,"code": "10001","msg": "注册成功","data": None }
+# 注册成功，密码18位
+- data: { "mobilephone": "15106309818", "pwd": "123456789012345678"}
+  expect: {"status":1,"code": "10001","msg": "注册成功","data": None }
+# 注册成功，有昵称
+- data: { "mobilephone": "15606707871", "pwd": "123456789012345678","regname":"王大拿"}
+  expect: {"status":1,"code": "10001","msg": "注册成功","data": None }
